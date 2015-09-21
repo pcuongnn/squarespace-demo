@@ -44,33 +44,7 @@
             </div>
         </div>
     </header>
-    <section id="content">
-            <div class="bg-header"><img src="assets/images/bg-header.png" alt=""></div>
-
-            <div class="container">
-                <h1 class="text-center">Insurance</h1>
-                <p class="head">We offer a variety of ways to help you save and finance dental procedures. Everyone deserves the right to access great, trustworthy dentists near them.</p>
-                <div class="line"></div>
-                <p class="text-center">We accept most dental insurance plans, and we will file claims on your behalf, saving you time and hassle. Our trusted offices will tell you upfront what your insurance plan will pay for and offer options for any remaining balances. Major credit cards are also welcomed.  A partial list is provided below for your reference. If your provider is not listed, give us a call and we will be happy to check if we accept your particular provider.</p>
-                <ul class="logo-list">
-                    <li><a href="#"><img src="assets/images/logo-aetna.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-bluecross.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-cigna.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-delta.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-guardian.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-metlife.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-principal.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-concordia.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-healthcare.png" alt=""></a></li>
-                </ul>
-                <p class="text-center">We also offer no interest or low interest patient financing options.</p>
-                <ul class="logo-list">
-                    <li><a href="#"><img src="assets/images/logo-carecredit.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-citihealh.png" alt=""></a></li>
-                    <li><a href="#"><img src="assets/images/logo-springstone.png" alt=""></a></li>
-                </ul>
-            </div>
-        </section>
+       {squarespace.main-content}
     <footer id="footer">
             <div class="container">
                 <nav class="f-menu">
