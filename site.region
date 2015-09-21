@@ -9,50 +9,49 @@
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
-    <div class="container">
-
-      <header id="header" class="header">
-        <!--Site title or logo.-->
-        {.section website}
-
-          <h1 class="site-title" data-content-field="site-title">
-            <a href="/">
-              {.section logoImageUrl}
-               <img class="logo" src="{logoImageUrl}?format=original" alt="{siteTitle}" />
-              {.or}
-                {siteTitle}
-              {.end}
-            </a>
-          </h1>
-          
-          <!--Site tagline.-->
-          {.section siteTagLine}
-            <p class="site-tagline">{@}</p>
-          {.end}
-
-        {.end}
-
-        <!--Main navigation.-->
-        <squarespace:navigation navigationId="mainNav" template="navigation" />
-      </header>
-
-      <!--Content injection point.-->
-      <main id="content" class="content" role="main" data-content-field="main-content">
+    <div id="topbar"><div class="container"><a href="#menu"><i class="fa fa-bars"></i></a></div></div>
+    <div id="body">
+        <header id="header">
+        <div class="container">
+            <p id="logo"><a href="#" title="The Smilist"><img src="assets/images/logo.png" alt="The Smilist"></a></p>
+            <div class="book"><span>Book your appointment!</span></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#" title="The smilist dental">The smilist dental</a></li>
+                    <li><a href="#" title="Locations">Locations</a></li>
+                    <li><a href="#" title="Meet the dentists">Meet the dentists</a></li>
+                    <li class="active"><a href="#" title="Insurance">Insurance</a></li>
+                    <li><a href="#" title="Careers">Careers</a></li>
+                    <li><a href="#" title="Partners">Partners</a></li>
+                    <li><a href="#" title="The smilist plan">The smilist plan</a></li>
+                </ul>
+            </nav>
+            <div class="top-social">
+                <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+    <main id="content" class="content" role="main" data-content-field="main-content">
        {squarespace.main-content}
-      </main>
-
-      <!--Footer with open block field.-->
-      <footer id="footer" class="footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
-      </footer>
-
-    </div>
-
-    <!--Combo and minify the scripts when you're not logged in.-->
-    <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
-
-    <!--Injection point for tracking scripts and user content from the code injection tab.-->
-    {squarespace-footers}
-    
+    </main>
+    <footer id="footer">
+            <div class="container">
+                <nav class="f-menu">
+                    <ul>
+                        <li><a href="#" title="The smilist dental">The smilist dental</a></li>
+                        <li><a href="#" title="Locations">Locations</a></li>
+                        <li><a href="#" title="Meet the dentists">Meet the dentists</a></li>
+                        <li class="active"><a href="#" title="Insurance">Insurance</a></li>
+                        <li><a href="#" title="Careers">Careers</a></li>
+                        <li><a href="#" title="Partners">Partners</a></li>
+                        <li><a href="#" title="The smilist plan">The smilist plan</a></li>
+                    </ul>
+                </nav>
+                <div class="f-contact"><strong>Contact Us:</strong><br>info@thesmilist.com</div>
+            </div>
+        </footer>
+  </div>
   </body>
 </html> 
