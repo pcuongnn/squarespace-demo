@@ -28,10 +28,10 @@
             <div class="book"><span>Book your appointment!</span></div>
             <nav id="menu">
                 <ul>
-                    <li><a href="/home" title="The smilist dental">The smilist dental</a></li>
-                    <li><a href="/location" title="Locations">Locations</a></li>
-                    <li><a href="/meet" title="Meet the dentists">Meet the dentists</a></li>
-                    <li><a href="/insurance" title="Insurance">Insurance</a></li>
+                    <li><a href="http://smilist-demo.squarespace.com/home" title="The smilist dental">The smilist dental</a></li>
+                    <li><a href="http://smilist-demo.squarespace.com/location" title="Locations">Locations</a></li>
+                    <li><a href="http://smilist-demo.squarespace.com/meet" title="Meet the dentists">Meet the dentists</a></li>
+                    <li><a href="http://smilist-demo.squarespace.com/insurance" title="Insurance">Insurance</a></li>
                     <li><a href="#" title="Careers">Careers</a></li>
                     <li><a href="#" title="Partners">Partners</a></li>
                     <li><a href="#" title="The smilist plan">The smilist plan</a></li>
@@ -51,10 +51,10 @@
             <div class="container">
                 <nav class="f-menu">
                     <ul>
-                        <li><a href="/home" title="The smilist dental">The smilist dental</a></li>
-                        <li><a href="/location" title="Locations">Locations</a></li>
-                        <li><a href="/meet" title="Meet the dentists">Meet the dentists</a></li>
-                        <li><a href="/insurance" title="Insurance">Insurance</a></li>
+                        <li><a href="http://smilist-demo.squarespace.com/home" title="The smilist dental">The smilist dental</a></li>
+                        <li><a href="http://smilist-demo.squarespace.com/location" title="Locations">Locations</a></li>
+                        <li><a href="http://smilist-demo.squarespace.com/meet" title="Meet the dentists">Meet the dentists</a></li>
+                        <li><a href="http://smilist-demo.squarespace.com/insurance" title="Insurance">Insurance</a></li>
                         <li><a href="#" title="Careers">Careers</a></li>
                         <li><a href="#" title="Partners">Partners</a></li>
                         <li><a href="#" title="The smilist plan">The smilist plan</a></li>
