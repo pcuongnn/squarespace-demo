@@ -76,6 +76,11 @@ h4,h5,h6{font-size: 28px;}
 .slide-nav a:hover{opacity: 0.75;}
 #sliders:hover .slide-prev{left: 50px;}
 #sliders:hover .slide-next{right: 50px;}
+.btnslider{display: block;position: absolute;bottom: 70px;right: 0;font-size: 42px;color: #fff;border: 1px solid #fff;padding: 17px 55px 11px;text-align: center;}
+.btnslider:hover{color: #fff;}
+.flexslider ul li .slide-content{height: 100%;position: absolute;width: 100%;left: 0;top: 0;}
+.flexslider ul li .slide-content .container{margin: 0 auto;height: 100%;position: relative;}
+.btnslider span{font-size: 18px;text-transform: uppercase;display: block;padding: 16px 0 0 0;}
 
 /* Home page */
 .we{display: inline-block;width: 121px;height: 130px;position: relative;}
@@ -129,6 +134,7 @@ h4,h5,h6{font-size: 28px;}
 #office h3{display: block;font-size: 20px;font-weight: 700;color: #12a7cf;text-transform: uppercase;margin:36px 0 10px;}
 #office h3 a{color: #12a7cf;}
 #office span{display: block;padding-bottom: 6px;}
+#office .map-detail{display: none;}
 
 .location{padding: 14px 0 90px;}
 .location h3{text-transform: uppercase;color: #12a7cf;font-size: 20px;margin: 0 0 23px;font-weight: 700;}
@@ -136,6 +142,7 @@ h4,h5,h6{font-size: 28px;}
 .location .addr{font-size: 18px;padding: 0 20px 7px 0;}
 .location .addr span{display: block;padding-bottom: 4px;}
 .map img{width: 100%;}
+#gmap{width: 100%;height: 222px;margin-bottom: 15px;}
 .team-list li{padding-bottom: 8px;}
 .team-list li a{display: block;text-transform: uppercase;color: #464646;}
 .team-list li .active,.team-list li a:hover{color: #0b85b8;}
@@ -144,6 +151,7 @@ h4,h5,h6{font-size: 28px;}
 .team-other ul li{font-size: 0;line-height: 1px;padding-bottom: 20px;}
 .team-other ul li img{width: 100%;height: auto;-webkit-border-radius:50%;-moz-border-radius: 50%;border-radius: 50%;}
 .team-detail{float: left;width: 424px;}
+.team-detail .picture img{width: 100%;height: auto;max-width: 424px;}
 .team-detail h2{font-size: 25px;text-transform: uppercase;color: #0b85b8;text-align: center;padding: 30px 0 15px;}
 .team-detail h2 span{font-size: 15px;color: #464646;display: block;text-transform: none;padding: 7px 0 0 0;}
 .team-detail ul{padding-bottom: 13px;list-style: disc;padding-left: 20px;margin-left: -6px;}

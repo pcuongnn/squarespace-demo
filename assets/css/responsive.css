@@ -1,31 +1,6 @@
-@media only screen and (min-width: 1200px){
-	
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1199px) {
-	
-}
-
 @media only screen and (max-width: 1199px){
     .team-other{margin-left: 95px;}
     #topbar{display: block;}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 999px) {
-	
-}
-
-@media only screen and (min-width: 690px) and (max-width: 767px) {
-	
-}
-
-
-@media only screen and (min-width: 601px) and (max-width: 689px) {
-	
-}
-
-@media only screen and (min-width: 433px) and (max-width: 600px) {
-
 }
 
 @media only screen and (max-width: 991px) {
@@ -36,8 +11,10 @@
     #office .row{padding: 0;text-align: center;}
     #office .col-md-4{margin-bottom: 40px;text-align: left;float: none;display: inline-block;margin-right: -4px;}
     #main .col-md-9{padding-left: 15px !important;}
+    .btnslider{font-size: 30px;padding: 17px 30px 11px;bottom: 40px;right: 15px;}
+    .btnslider span{font-size: 16px;}
+    .btnslider span{padding-top: 10px;}
 }
-
 
 @media only screen and (max-width: 767px) {
     .team-other,.team-detail{float: none;margin: 0;width: 100%;}
@@ -50,6 +27,9 @@
     .slide-nav a{width: 40px;height: 60px;margin-top: -20px;}
     .logo-list li{margin: 0 10px 76px;}
     .dental-list .col-md-3{display: inline-block;float: none;margin-right: -4px;vertical-align: top;}
+    .btnslider{font-size: 25px;padding: 10px 15px 5px;bottom: 20px;right: 15px;}
+    .btnslider span{font-size: 12px;}
+    .btnslider span{padding-top: 0;}
 }
 
 @media only screen and (max-width: 600px) {
