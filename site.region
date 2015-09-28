@@ -19,7 +19,9 @@
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-
+    <div class="container">
+      <squarespace:block-field id="prefooterBlocks" columns="12"  lock-layout="true"/>
+    </div>
     <div id="topbar"><div class="container"><a href="#menu"><i class="fa fa-bars"></i></a></div></div>
     <div id="body">
         <header id="header">
@@ -47,9 +49,7 @@
     <main id="content" class="content" role="main" data-content-field="main-content">
        {squarespace.main-content}
     </main>
-    <div class="container">
-      <squarespace:block-field id="prefooterBlocks" columns="12"  lock-layout="true"/>
-    </div>
+    
     <footer id="footer">
             <div class="container">
                 <nav class="f-menu">
