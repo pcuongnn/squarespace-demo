@@ -101,7 +101,6 @@
             });
         </script>
   </div>
-        <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
                 
   </body>
 </html> 
