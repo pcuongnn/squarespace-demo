@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
-
+    {squarespace-headers}
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
@@ -105,5 +105,6 @@
         </script>
         <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
   </div>
+  {squarespace-footers}
   </body>
 </html> 
