@@ -103,7 +103,6 @@
                 });
             });
         </script>
-        <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
   </div>
   {squarespace-footers}
   </body>
