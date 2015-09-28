@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
@@ -46,7 +47,6 @@
     <main id="content" class="content" role="main" data-content-field="main-content">
        {squarespace.main-content}
     </main>
-    
     <footer id="footer">
             <div class="container">
                 <nav class="f-menu">
@@ -101,6 +101,5 @@
             });
         </script>
   </div>
-                
   </body>
 </html> 
