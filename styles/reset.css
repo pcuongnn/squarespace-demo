@@ -6,6 +6,12 @@
  *    user zoom.
  */
 
+#prefooterBlocks{
+  width:600px;
+height:500px;
+background-color:green;
+}
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
