@@ -47,7 +47,7 @@
        {squarespace.main-content}
     </main>
     <div class="container">
-      <squarespace:block-field id="prefooterBlocks" columns="12"  lock-layout="true"/>
+      <squarespace:block-field id="prefooterBlocks" columns="12"/>
     </div>
     <footer id="footer">
             <div class="container">
