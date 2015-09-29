@@ -24,7 +24,7 @@
         <header id="header">
         <div class="container">
             <p id="logo"><a href="#" title="The Smilist"><img src="assets/images/logo.png" alt="The Smilist"></a></p>
-            <div class="book"><span>Book your appointment!</span></div>
+            <a href="http://smilist-demo.squarespace.com/book"><div class="book"><span>Book your appointment!</span></div></a>
             <nav id="menu">
                 <ul>
                     <li><a href="http://smilist-demo.squarespace.com/home" title="The smilist dental">The smilist dental</a></li>
@@ -47,7 +47,7 @@
        {squarespace.main-content}
     </main>
     <div class="container">
-      <squarespace:block-field id="prefooterBlocks" columns="12"/>
+      <squarespace:block-field id="prefooterBlocks" columns="12"  lock-layout="true"/>
     </div>
     <footer id="footer">
             <div class="container">
