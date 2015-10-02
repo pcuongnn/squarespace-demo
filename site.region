@@ -46,9 +46,7 @@
     <main id="content" class="content" role="main" data-content-field="main-content">
        {squarespace.main-content}
     </main>
-    <div class="container">
-      <squarespace:block-field id="prefooterBlocks" columns="12"/>
-    </div>
+    
     <footer id="footer">
             <div class="container">
                 <nav class="f-menu">
