@@ -89,7 +89,9 @@ jQuery(function(){
 		if(jQuery(this).hasClass('active')){jQuery(this).parents('ul').show();}
 	});
 
-	$( "#date" ).datepicker({
-		altFormat: "mm/dd/yyyy"
-	});
+	if ($("#date").length >0) {
+		$("#date").datepicker({
+			altFormat: "mm/dd/yyyy"
+		});
+	}
 });
