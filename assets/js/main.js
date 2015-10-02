@@ -64,14 +64,6 @@ jQuery(function(){
 		captions: false
 	});
 
-	jQuery('.testimonial ul').bxSlider({
-		mode: 'fade',
-		auto: true,
-		controls: false,
-		pager: false,
-		captions: false
-	});
-
 	jQuery('.s-menu li').find('ul').parent().addClass('has-child');
 	jQuery('.has-child a').click(function(e){
 		e.preventDefault();
@@ -89,7 +81,4 @@ jQuery(function(){
 		if(jQuery(this).hasClass('active')){jQuery(this).parents('ul').show();}
 	});
 
-	$( "#date" ).datepicker({
-		altFormat: "mm/dd/yyyy"
-	});
 });
