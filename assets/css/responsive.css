@@ -1,6 +1,7 @@
 @media only screen and (max-width: 1199px){
     .team-other{margin-left: 95px;}
     #topbar{display: block;}
+    #header #menu{display: none;}
 }
 
 @media only screen and (max-width: 991px) {
@@ -14,6 +15,8 @@
     .btnslider{font-size: 30px;padding: 17px 30px 11px;bottom: 40px;right: 15px;}
     .btnslider span{font-size: 16px;}
     .btnslider span{padding-top: 10px;}
+    .blocks .ite{margin-bottom: 30px;}
+    .blocks .ite-inner{min-height: inherit;}
 }
 
 @media only screen and (max-width: 767px) {
@@ -30,6 +33,7 @@
     .btnslider{font-size: 25px;padding: 10px 15px 5px;bottom: 20px;right: 15px;}
     .btnslider span{font-size: 12px;}
     .btnslider span{padding-top: 0;}
+    .testimonial{font-size: 16px;line-height: 26px;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -40,4 +44,8 @@
 @media only screen and (max-width: 500px) {
     .team-other ul, .team-detail .picture img{width: 100%;}
     .philo-inner .image:hover div{top:60px;}
+}
+
+@media only screen and (max-width: 480px) {
+    .cornerstone .col{width: 100%;margin-bottom: 30px;}
 }
