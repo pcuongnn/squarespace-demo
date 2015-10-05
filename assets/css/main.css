@@ -15,11 +15,6 @@ h4,h5,h6{font-size: 28px;}
 
 .button{display: inline-block;color: #fff;font-size: 20px;font-family: 'Raleway', sans-serif;text-transform: uppercase;padding: 18px 35px;background-color: #0b85b8;}
 .button:hover{background-color: #0e99d3;color: #fff;}
-input[type="text"],input[type="password"],input[type="datetime"],select{-webkit-border-radius:0 !important;-moz-border-radius:0 !important;border-radius: 0 !important;border-width: 2px !important;border-color: #c7c5c5 !important;padding: 15px 15px !important;height: 52px !important;font-size: 18px !important;font-family: 'Raleway', sans-serif !important;}
-textarea{-webkit-border-radius:0 !important;-moz-border-radius:0 !important;border-radius: 0 !important;border-width: 2px !important;border-color: #c7c5c5 !important;padding: 15px 15px !important;font-size: 18px !important;font-family: 'Raleway', sans-serif !important;}
-label{font-weight: 300 !important;}
-.hor .control-label{padding-top: 11px !important;}
-.has-error input[type="text"],.has-error input[type="password"],.has-error input[type="datetime"].has-error ,.has-error select, .has-error textarea{border-color: #ff0000 !important;}
 
 *{box-sizing: border-box;}
 *:after,*:before{box-sizing: border-box;}
@@ -216,25 +211,4 @@ label{font-weight: 300 !important;}
 .benefit .fit ul{text-align: left;list-style: disc;}
 .benefit .fit ul li{padding: 0 0 20px;}
 
-#contact{font-size: 18px;padding-bottom: 147px;}
-.form-wrap{margin: 0 -25px !important;padding-top: 46px;}
-.form-left,.form-right{padding-left: 25px !important;padding-right: 25px !important;}
-.form-content .required{color: #9c9b9e;display: block;padding-top: 6px;padding-bottom: 50px;}
-.form-content h3{font-size: 27px;color: #464646;margin: 0;}
-.form-content .row{margin: 0 -5px !important;}
-.custom-radio{margin-right:5px;display: inline-block;width: 24px;height: 24px;vertical-align: middle;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;background-color: #fff;position: relative;border: 1px solid #d2d1d1;}
-.cus-radio input[type="radio"]:checked + span.custom-radio:after{background-color: #0b85b8;height: 14px;width: 14px;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;position: absolute;left: 4px;top: 4px;content: "";}
-.cus-radio input[type="radio"]{display: none;}
-.cus-radio .checkbox-inline{padding-left: 0 !important;padding-right: 20px !important;text-transform: uppercase;}
-.cus-radio .radio label{text-transform: uppercase;}
-.cus-radio .radio{margin: 8px 0 0 0;}
-.cus-radio .radio + .radio{margin: 24px 0 0 0;}
-.btn{-webkit-border-radius:0 !important;-moz-border-radius:0 !important;border-radius: 0 !important;font-size: 20px;font-family: 'Raleway', sans-serif;text-transform: uppercase;padding: 18px 35px;}
-#contact .form-group{margin-bottom: 27px !important;}
-.form-content .col-lg-1,.form-content .col-lg-10,.form-content .col-lg-11,.form-content .col-lg-12,.form-content .col-lg-2,.form-content .col-lg-3,
-.form-content .col-lg-4,.form-content .col-lg-5, .form-content .col-lg-6, .form-content .col-lg-7, .form-content .col-lg-8, .form-content .col-lg-9, .form-content .col-md-1, .form-content .col-md-10, .form-content .col-md-11,
-.form-content .col-md-12, .form-content .col-md-2, .form-content .col-md-3, .form-content .col-md-4, .form-content .col-md-5, .form-content .col-md-6, .form-content .col-md-7, .form-content .col-md-8, .form-content .col-md-9,
-.form-content .col-sm-1, .form-content .col-sm-10, .form-content .col-sm-11, .form-content .col-sm-12, .form-content .col-sm-2, .form-content .col-sm-3, .form-content .col-sm-4, .form-content .col-sm-5, .form-content .col-sm-6,
-.form-content .col-sm-7, .form-content .col-sm-8, .form-content .col-sm-9, .form-content .col-xs-1, .form-content .col-xs-10, .form-content .col-xs-11, .form-content .col-xs-12, .form-content .col-xs-2, .form-content .col-xs-3,
-.form-content .col-xs-4, .form-content .col-xs-5, .form-content .col-xs-6, .form-content .col-xs-7, .form-content .col-xs-8, .form-content .col-xs-9{padding-left: 5px !important;padding-right: 5px !important;}
 
