@@ -119,7 +119,7 @@ h4,h5,h6{font-size: 28px;}
 
 /* Content */
 .title-page{text-align: center;font-weight: 300;margin: 62px 0 42px 0;}
-.title{font-size: 29px;margin: 0 0 60px;color: #0b85b8;text-align: center;}
+.title{text-align: center;}
 .head{font-size: 24px;text-align: center;line-height: 35px;margin: 0 0 25px;}
 .decrs{text-align: center;padding-bottom: 66px;}
 #main-inner{padding: 23px 0 0 0;}
