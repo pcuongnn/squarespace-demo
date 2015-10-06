@@ -43,12 +43,9 @@
             </div>
         </div>
     </header>
-    <main id="content" class="content" role="main" data-content-field="main-content">
+    <div>
        {squarespace.main-content}
-       <div class="container">
-        {squarespace.main-content}
-       </div>
-    </main>
+    </div>   
     <footer id="footer">
             <div class="container">
                 <nav class="f-menu">
