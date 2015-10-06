@@ -43,9 +43,11 @@
             </div>
         </div>
     </header>
+    <div class="container">
     <main id="content" class="content" role="main" data-content-field="main-content" columns="12">
        {squarespace.main-content}
     </main>
+    </div>
     <div class="container">
       <squarespace:block-field id="prefooterBlocks" columns="12"/>
     </div>
