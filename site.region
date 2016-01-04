@@ -26,8 +26,7 @@
             </div>
             <div class="middle-bar">
                 <div class="container">
-                    {.section item} If this section exists, display this {.end}
-                    {.section items} If there are any items, repeat this info for each item {.end}
+
                     <p id="logo"><a href="#" title="The Smilist"><img src="../../../../assets/images/logo.png" alt="The Smilist"></a></p>
                     <nav id="menu">
                         <ul>
