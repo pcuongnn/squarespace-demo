@@ -1,7 +1,10 @@
 @media only screen and (max-width: 1199px){
+    body:before{display: none;}
     .team-other{margin-left: 95px;}
     #topbar{display: block;}
+    #header{position: static !important;}
     #header #menu{display: none;}
+    #logo{float: none;text-align: center;width: auto;}
 }
 
 @media only screen and (max-width: 991px) {
@@ -34,6 +37,9 @@
     .btnslider span{font-size: 12px;}
     .btnslider span{padding-top: 0;}
     .testimonial{font-size: 16px;line-height: 26px;}
+    .image-text{text-align: center;padding-left: 0;}
+    .image-text img,.image-text .it-content{width: auto;}
+    .image-text .it-content{padding-left: 0;padding-top: 25px;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -48,4 +54,10 @@
 
 @media only screen and (max-width: 480px) {
     .cornerstone .col{width: 100%;margin-bottom: 30px;}
+}
+
+@media only screen and (min-width: 640px) {
+    .review-item .info{padding: 0 0 18px 0;}
+    .review-item{position: relative;}
+    .review-item .r-date{position: absolute;margin: 0;right: 13px;top:10px;padding: 0;}
 }
