@@ -1,4 +1,13 @@
 @charset "utf-8";
+
+a.tag{border: 1px solid #585858; background-color: #585858;color: #FFFFFF;}
+.ss-social-button-wrapper{background-color: #0066CC;}
+.form-wrapper{margin-top: 200px;margin-right: 200px;margin-left: 200px;}
+
+.blog-title {
+    margin-bottom: 0px;
+}
+
 body{font-size:16px;line-height:25px;font-family: 'Raleway', sans-serif;font-weight: 400;color: #464646;}
 body:before{display: block;content: "";background-color: #0b85b8;height: 115px;width: 100%;}
 a{color#0b85b8;outline:none;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;transition: all 0.4s ease-in-out;}
