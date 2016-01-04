@@ -1,5 +1,5 @@
 <section id="content">
-  <div class="bg-header"><img src="assets/images/bg-header.png" alt=""></div>
+  <div class="bg-header"><img src="../../../../assets/images/bg-header.png" alt=""></div>
 <!-- CATEGORY FILTER RESULTS ex: http://base-template.squarespace.com/blog/?category=category1 -->
 <div class="container">  
 {.section categoryFilter}
