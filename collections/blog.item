@@ -1,4 +1,6 @@
-
+<section id="content">
+  <div class="bg-header"><img src="../../../../assets/images/bg-header.png" alt=""></div>
+<div class="container">
 {.section item}
 
   <!--WRAPPER-->
@@ -92,3 +94,5 @@
 
   </nav>
 {.end}
+<div class="container">
+</section>
