@@ -47,13 +47,14 @@
             <div class="container">
                 <nav class="f-menu">
                     <ul>
-                        <li class="active"><a href="#" title="The smilist dental">The smilist dental</a></li>
+                        <li class="active"><a href="#" title="The smilist dental">About us</a></li>
                         <li><a href="#" title="Locations">Locations</a></li>
                         <li><a href="#" title="Meet the dentists">Meet the dentists</a></li>
                         <li><a href="#" title="Insurance">Insurance</a></li>
+                        <li><a href="#" title="The smilist plan">The smilist plan</a></li>
+                        <li><a href="#" title="Blog">Blog</a></li>
                         <li><a href="#" title="Careers">Careers</a></li>
                         <li><a href="#" title="Partners">Partners</a></li>
-                        <li><a href="#" title="The smilist plan">The smilist plan</a></li>
                     </ul>
                 </nav>
                 <div class="f-social">
