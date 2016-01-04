@@ -1,4 +1,20 @@
 jQuery(function(){
+	// Sticky
+	var $body,$target,resizetimer,stickyclass = 'we-sticky';
+	$body = $(document.body);
+	function makeSticky(){
+		var scrollTop = $(document).scrollTop();
+		if (scrollTop > 1) {
+			if (!$body.hasClass(stickyclass)) {
+				$body.addClass(stickyclass);
+			}
+		} else {
+			if ($body.hasClass(stickyclass)) {
+				$body.removeClass(stickyclass);
+			}
+		}
+	}
+
 	//////////////////////////////////////////////////////////////////////////
 	// Tab
 	//////////////////////////////////////////////////////////////////////////
@@ -15,9 +31,9 @@ jQuery(function(){
 		$this.parent().parent().prev().children('.tab-content').stop(true, true).hide().siblings($this.find('a').attr('href')).fadeIn();
 		e.preventDefault();
 	});
-	//////////////////////////////////////////////////////////////////////////	
+	//////////////////////////////////////////////////////////////////////////
     // scrollto
-    //////////////////////////////////////////////////////////////////////////		
+    //////////////////////////////////////////////////////////////////////////
 	jQuery(".scrollto").click(function(T){
 		T.preventDefault();
 		var Q=jQuery(this).attr("name");
@@ -26,7 +42,7 @@ jQuery(function(){
 		},1800,"swing");
 		return false;
 	});
-	if (jQuery(window).width() <= 1200 ) {
+	if (jQuery(window).width() <= 1199 ) {
 		$("#menu").mmenu({
 			extensions: ["pageshadow", "theme-white"],
 			counters: false
@@ -49,12 +65,23 @@ jQuery(function(){
 			pauseOnHover: true
 		});
 
-		$('#sliders .slide-prev, #sliders .slide-next').on('click', function(){
-			var href = $(this).attr('href');
-			$('.flexslider').flexslider(href);
+		jQuery('#sliders .slide-prev, #sliders .slide-next').on('click', function(){
+			var href = jQuery(this).attr('href');
+			jQuery('.flexslider').flexslider(href);
 			return false;
 		});
 	});
+
+	makeSticky();
+	jQuery(window).on('scroll', function(){
+		clearTimeout(resizetimer);
+		resizetimer = setTimeout(function(){
+			$body.removeClass(stickyclass);
+			makeSticky();
+		}, 10);
+	});
+
+	$('[data-toggle="tooltip"]').tooltip();
 
 	jQuery('.feed-inner ul').bxSlider({
 		mode: 'fade',
