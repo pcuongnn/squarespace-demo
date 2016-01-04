@@ -1,6 +1,7 @@
-
+<section id="content">
+  <div class="bg-header"><img src="assets/images/bg-header.png" alt=""></div>
 <!-- CATEGORY FILTER RESULTS ex: http://base-template.squarespace.com/blog/?category=category1 -->
-
+<div class="container">  
 {.section categoryFilter}
   <p>Filtering by Category: {@|safe}</p>
 {.end}
@@ -22,16 +23,11 @@
 {.repeated section items}
 
   <!--WRAPPER-->
-  
+
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
     
-    <!--MAIN IMAGE-->
 
-    {.main-image?}  
-      <a href="{fullUrl}" class="main-image content-fill">
-        <img {@|image-meta} />
-      </a>
-    {.end}
+    
 
     <!--POST TILE-->
 
@@ -43,6 +39,22 @@
       {.end}
     </h1>
 
+    <!--POST META-->
+
+    <p class="meta">
+      <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> | Posted by <a href="?author={author.id}">{author.displayName}</a>.
+      {.section sourceUrl}
+        <a href="{@}" class="source" target="_blank">Source</a>.
+      {.end}
+    </p>
+
+    <!--MAIN IMAGE-->
+
+    {.main-image?}
+      <a href="{fullUrl}" class="main-image content-fill">
+        <img {@|image-meta} />
+      </a>
+    {.end}
     <!--EXCERPT OR BODY-->
 
     {.if excerpt}
@@ -58,7 +70,7 @@
 
     <!--BLOG INJECTION-->
 
-    {postItemInjectCode}    
+    {postItemInjectCode}
 
     <!--CATEGORIES-->
 
@@ -67,28 +79,15 @@
     {.end}
 
     <!--TAGS-->
-
+    <br>
+    Tags:
+    <br>
     {.repeated section tags}
-      <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with},
+      <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with}&nbsp;
     {.end}
 
     <!--SHARE AND LIKE-->
-
-    {@|like-button}
     {@|social-button}
-
-    <!--POST META-->
-    
-    <p class="meta">
-      Published on <a href="{fullUrl}"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="?author={author.id}">{author.displayName}</a>.
-      {.section sourceUrl}
-        <a href="{@}" class="source" target="_blank">Source</a>.
-      {.end}
-    </p>        
-
-    <!--LINK TO COMMENTS-->
-
-    {@|comment-link}
 
     <!--LOCATION-->
 
@@ -100,15 +99,17 @@
         {addressCountry}
       {.end}
     {.end}
-
+  <hr>  
   </article>
 
   {.or}
     No blog posts yet.
+  
 {.end}
-  
+
+
 <!--PAGINATION-->
-  
+
 {.if pagination}
   <nav>
 
@@ -130,3 +131,5 @@
 
   </nav>
 {.end}
+<div class="container">
+</section>
