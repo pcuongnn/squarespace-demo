@@ -2,7 +2,7 @@
     <div id="body">
         <header id="header">
             <div class="topbar">
-                <p class="text-center"><a href="#"><i class="we we-tooth-small"></i> Book your appointment!</a></p>
+                <p class="text-center"><a href="http://smilist-demo.squarespace.com/book"><i class="we we-tooth-small"></i> Book your appointment!</a></p>
             </div>
             <div class="middle-bar">
                 <div class="container">
