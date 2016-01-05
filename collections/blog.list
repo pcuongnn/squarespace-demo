@@ -25,7 +25,8 @@
   <div class="bg-header"><img src="../../../../assets/images/bg-header.png" alt=""></div>
 <!-- CATEGORY FILTER RESULTS ex: http://base-template.squarespace.com/blog/?category=category1 -->
 <div class="container">
-<a href="http://smilist-demo.squarespace.com/blog/?format=rss" title="blog RSS" class="social-rss">blog RSS</a>  
+<a href="http://smilist-demo.squarespace.com/blog/?format=rss" title="SUBSCRIBE" class="social-rss" style="
+margin-left: 90%;">SUBSCRIBE</a> 
 {.section categoryFilter}
   <p>Filtering by Category: {@|safe}</p>
 {.end}
