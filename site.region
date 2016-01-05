@@ -22,7 +22,7 @@
     <div id="body">
         <header id="header">
             <div class="topbar">
-                <p class="text-center"><i class="we we-tooth-small"></i> Book your appointment!</p>
+                <p class="text-center"><a href="#"><i class="we we-tooth-small"></i> Book your appointment!</a></p>
             </div>
             <div class="middle-bar">
                 <div class="container">
