@@ -11,8 +11,8 @@
                     <nav id="menu">
                         <ul>
                             <li><a href="http://smilist-demo.squarespace.com/home" title="The smilist dental" title="About us">About us</a></li>
-                            <li><a href="#" title="The smilist dental" title="Locations">Locations</a></li>
-                            <li><a href="#" title="The smilist dental" title="Meet the dentists">Meet the dentists</a></li>
+                            <li><a href="http://smilist-demo.squarespace.com/location" title="The smilist dental" title="Locations">Locations</a></li>
+                            <li><a href="http://smilist-demo.squarespace.com/meet" title="The smilist dental" title="Meet the dentists">Meet the dentists</a></li>
                             <li><a href="http://smilist-demo.squarespace.com/insurance" title="The smilist dental" title="Insurance">Insurance</a></li>
                             <li><a href="http://smilist-demo.squarespace.com/benefits" title="The smilist dental" title="The smilist plan">The smilist plan</a></li>
                             <li><a href="http://smilist-demo.squarespace.com/blog" title="The smilist dental" title="Blog">Blog</a></li>
