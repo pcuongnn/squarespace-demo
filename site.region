@@ -73,7 +73,8 @@
                     var $lon1 = $this.attr('data-lon');
                     mapDisplay($lat1,$lon1);
 
-                    jQuery('#map-detail').html($this.parent('.col-md-4').find('.map-detail'));
+                    $mapdetail = $this.parent('.col-md-4').find('.map-detail').html();
+                    jQuery('#map-detail').html($mapdetail);                    
                     jQuery("html,body").clearQueue().animate({
                         scrollTop:jQuery('#main').offset().top
                     },1800,"swing");
