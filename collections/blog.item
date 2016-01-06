@@ -57,13 +57,15 @@ margin-left: 90%;font-weight: bold;">&nbsp;SUBSCRIBE</a>
 
     <!--TAGS-->
 
+    <br>
+    Tags:
+    <br>
     {.repeated section tags}
-      <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
+      <a class="tag" href="?tag={@|url-encode}">{@}</a>{.alternates with}&nbsp;
     {.end}
-
+    
     <!--SHARE AND LIKE-->
 
-    {@|like-button}
     {@|social-button}
 
     <!--AUTHOR AND DATE-->
@@ -94,29 +96,5 @@ margin-left: 90%;font-weight: bold;">&nbsp;SUBSCRIBE</a>
 
 {.end}
     
-
-<!--PAGINATION-->
-  
-{.section pagination}
-  <nav>
-
-    <!--NEWER PAGE-->
-
-    {.section prevItem}
-      <a href="{fullUrl}">Newer</a>
-    {.or}
-      <a class="disabled">Newer</a>
-    {.end}
-    
-    <!--OLDER PAGE-->
-
-    {.section nextItem}
-      <a href="{fullUrl}">Older</a>
-    {.or}
-      <a class="disabled">Older</a>
-    {.end}
-
-  </nav>
-{.end}
 <div class="container">
 </section>
