@@ -81,8 +81,6 @@ jQuery(function(){
 		}, 10);
 	});
 
-	$('[data-toggle="tooltip"]').tooltip();
-
 	jQuery('.feed-inner ul').bxSlider({
 		mode: 'fade',
 		auto: true,

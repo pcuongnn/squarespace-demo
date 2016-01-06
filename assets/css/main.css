@@ -195,13 +195,12 @@ p.title{font-size: 29px;margin: 0 0 60px;color: #0b85b8;text-align: center;}
 .team-list li a{display: block;text-transform: uppercase;color: #464646;}
 .team-list li .active,.team-list li a:hover{color: #0b85b8;}
 .location .hour{color: #898989;font-size: 14px;line-height: 23px;}
+.tabs-nav li a span{display: none;position: absolute;width: 0;height: 0;left: 0;top:0;z-index: 1;font-size: 14px;line-height: 21px;text-align: center;-webkit-border-radius:50%;-moz-border-radius: 50%;border-radius: 50%;background-color: rgba(11,133,184,0.5);color: #fff;padding-top:50px;-webkit-transition: height 0.4s ease-in-out;-moz-transition: height 0.4s ease-in-out;-o-transition: height 0.4s ease-in-out;transition: all 500ms ease;}
+.tabs-nav li:hover a span{display: block;width: 100%;height: 100%;}
 .team-other{width: 135px;margin-left: 111px;float: left;}
 .team-other ul li{font-size: 0;line-height: 1px;padding-bottom: 20px;}
-.team-other ul li a{display: block;}
+.team-other ul li a{display: block;position: relative;}
 .team-other ul li img{width: 100%;height: auto;-webkit-border-radius:50%;-moz-border-radius: 50%;border-radius: 50%;}
-.team-other ul li .tooltip-inner{background-color: #0b85b8;}
-.team-other ul li .tooltip-arrow{border-top-color: #0b85b8 !important;}
-.team-other ul li .tooltip-inner{font-size: 16px;}
 .team-detail{float: left;width: 424px;}
 .team-detail .picture img{width: 100%;height: auto;max-width: 424px;}
 .team-detail h2{font-size: 25px;text-transform: uppercase;color: #0b85b8;text-align: center;padding: 30px 0 15px;}
