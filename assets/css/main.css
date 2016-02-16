@@ -120,7 +120,7 @@ label{font-weight: 300 !important;}
 .we-lead span{display: block;font-size: 16px;}
 .dental-list{margin-right: -10px !important;margin-left: -10px !important;}
 .dental-list p{font-weight: 600;text-align: justify;}
-.dental-list h3{color: #20bba5;font-weight: 600;margin-top: 39px;}
+.dental-list h3{color: #20bba5;font-weight: 100;margin-top: 39px;}
 .dental-list .col-md-3{padding-left: 10px !important;padding-right: 10px !important;}
 .image-text{padding: 0 0 0 84px;}
 .image-text img,.image-text .it-content{display: inline-block;vertical-align: middle;margin-right: -4px;}
