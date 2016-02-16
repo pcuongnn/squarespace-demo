@@ -96,7 +96,7 @@ label{font-weight: 300 !important;}
 .slide-nav a:hover{opacity: 0.75;}
 #sliders:hover .slide-prev{left: 50px;}
 #sliders:hover .slide-next{right: 50px;}
-.btnslider{display: block;position: absolute;bottom: 70px;right: 0;font-size: 42px;color: #fff;border: 1px solid #fff;padding: 17px 55px 11px;text-align: center;}
+.btnslider{display: block;position: absolute;bottom: 230px;font-size: 42px;color: #fff;border: 1px solid #fff;padding: 17px 55px 11px;text-align: center;}
 .btnslider:hover{color: #fff;}
 .flexslider ul li .slide-content{height: 100%;position: absolute;width: 100%;left: 0;top: 0;}
 .flexslider ul li .slide-content .container{margin: 0 auto;height: 100%;position: relative;}
