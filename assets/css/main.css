@@ -39,7 +39,7 @@ label{font-weight: 300 !important;}
 .topbar i {margin-right: 6px;}
 .topbar p{margin: 0;}
 #logo{padding: 0;float: left;width: 165px;margin: 0;}
-#logo img {width: 100%;max-width: 165px;}
+#logo img {width: 100%;max-width: 135px;}
 #header .book{position: absolute;text-transform: uppercase;font-weight: 700;color: #0b85b8;right: 4px;top: 0;width: 225px;}
 #header .book span,#header .book a{color: #0b85b8;background-color: #fff;padding: 40px 16px 17px;display: block;-webkit-border-radius: 0 0 3px 3px;-moz-border-radius: 0 0 3px 3px;border-radius: 0 0 3px 3px;font-size: 24px;line-height: 30px;-moz-box-shadow: 4px 4px #075373;-webkit-box-shadow: 4px 4px #075373;box-shadow: 4px 4px #075373;}
 .top-social a{display: inline-block;margin-right: 8px;background-color: #fff;color: #0b85b8 !important;width: 25px;height: 25px;vertical-align: middle;-webkit-border-radius: 12px;-moz-border-radius: 12px;border-radius: 12px;text-align: center;}
