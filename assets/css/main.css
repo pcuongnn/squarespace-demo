@@ -47,7 +47,7 @@ label{font-weight: 300 !important;}
 .top-social{position: absolute;right: 0;bottom: -55px;z-index: 1000;}
 .bg-header{padding-bottom: 40px;}
 #sliders .bg-header{background: url(../images/bg-header.png) no-repeat 0 0 / 10% auto;width: 100%;position: absolute;top: 0;left: 0;z-index: 999;padding-bottom: 0;}
-.bg-header img{width: 100%;height: 170px;}
+.bg-header img{width: 100%;height: auto;}
 #topbar{background-color: #0b85b8;display: none;}
 #topbar .container{position: relative;}
 #topbar a{color: #fff;font-size: 30px;cursor: pointer;position: absolute;left: 8px;top: 3px;z-index: 1100;}
