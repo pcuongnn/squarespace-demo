@@ -63,6 +63,9 @@ jQuery(function(){
 			animationSpeed: 800,
 			multipleKeyboard: true,
 			pauseOnHover: true
+		    start: function(){
+		         $('.flexImages').show(); 
+		    }
 		});
 
 		jQuery('#sliders .slide-prev, #sliders .slide-next').on('click', function(){
