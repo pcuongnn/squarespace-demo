@@ -88,7 +88,7 @@ label{font-weight: 300 !important;}
 @-webkit-keyframes jump{0{-webkit-transform:translateY(0);transform:translateY(0)}20%{-webkit-transform:translateY(-30px);transform:translateY(-30px)}50%{-webkit-transform:translateY(0);transform:translateY(0)}70%{-webkit-transform:translateY(-30px);transform:translateY(-30px)}}
 @-o-keyframes jump{0{-o-transform:translateY(0);transform:translateY(0)}20%{-o-transform:translateY(-30px);transform:translateY(-30px)}50%{-o-transform:translateY(0);transform:translateY(0)}70%{-o-transform:translateY(-30px);transform:translateY(-30px)}}@-ms-keyframes jump{0{-ms-transform:translateY(0);transform:translateY(0)}20%{-ms-transform:translateY(-30px);transform:translateY(-30px)}50%{-ms-transform:translateY(0);transform:translateY(0)}70%{-ms-transform:translateY(-30px);transform:translateY(-30px)}}@keyframes jump{0{transform:translateY(0)}20%{transform:translateY(-30px)}50%{transform:translateY(0)}70%{transform:translateY(-30px)}}
 .flexslider{overflow: hidden;position: relative;}
-.flexslider ul li img{width: 100%;height: 577px;}
+.flexslider ul li img{width: 100%;height: auto;}
 .slide-nav{position: absolute;top: 50%;width: 100%;z-index: 5;}
 .slide-nav a{display: block;position: absolute;background: url(../images/arrow-next.png) no-repeat 0 0 / 100% auto;width: 87px;height: 127px;top:50%;margin-top: -63px;z-index: 10;cursor: pointer;}
 .slide-prev{left: 0;transform: rotate(180deg);-ms-transform: rotate(180deg);-webkit-transform: rotate(180deg);}
