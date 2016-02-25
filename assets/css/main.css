@@ -156,7 +156,7 @@ label{font-weight: 300 !important;}
 .feedback-2-list .bgcolor-6 .we-tooth-small{background-color: #005f87;}
 .feedback-2-list .we-tooth-small:after{background-position: 11px 9px;}
 .feedback-2-list .feed-content{padding-bottom: 55px;}
-.feedback-2-list .feed-content p span {display: block;font-size: 14px;font-weight: 700;padding-top: 15px;}
+.feedback-2-list .feed-content p span, .we-lead p span {display: block;font-size: 14px;font-weight: 700;padding-top: 15px;}
 #feedback-2 .we-lead{text-align: center;font-size: 30px;line-height: 46px;}
 
 /* Content */
